@@ -1,0 +1,17 @@
+{
+  "name": "ses-logging-tools",
+  "version": "1.0.0",
+  "description": "AWS SES logging and tracing tools",
+  "main": "fetch-ses-logs.js",
+  "scripts": {
+    "fetch-logs": "node fetch-ses-logs.js",
+    "setup-logging": "node setup-ses-logging.js",
+    "send-trace": "node send-and-trace-email.js",
+    "check-regions": "node check-ses-regions.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1500.0"
+  },
+  "author": "Omar",
+  "license": "MIT"
+}
