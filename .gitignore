@@ -1,7 +1,9 @@
+# Local secrets (not pushed to GitHub)
+*-secrets.js
+*-credentials.js
+local-config.js
+.env*
+*.key
+*.pem
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.env
-.DS_Store
 *.log

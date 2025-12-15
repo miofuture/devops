@@ -123,8 +123,8 @@ async function main() {
     const smtpCredentials = {
         'SES_SMTP_HOST': 'email-smtp.eu-central-1.amazonaws.com',
         'SES_SMTP_PORT': '587',
-        'SES_SMTP_USER': 'AKIA5RP5FWVY4UGVDYUM',
-        'SES_SMTP_PASS': 'BM+zIynBs56WJVFCgglj0HfYIM3zOEh99Zzd2UwwBDx5'
+        'SES_SMTP_USER': 'AKIA****************',
+        'SES_SMTP_PASS': '****************************************BDx5'
     };
     
     let needsUpdate = false;
