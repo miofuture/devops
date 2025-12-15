@@ -28,3 +28,7 @@ dist/
 build/
 *.zip
 *.tar.gz
+
+# Temporary files
+*.tmp
+*.temp
