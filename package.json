@@ -1,0 +1,28 @@
+{
+  "name": "ses-logging-tools",
+  "version": "1.0.0",
+  "description": "AWS SES logging and tracing tools",
+  "main": "fetch-ses-logs.js",
+  "scripts": {
+    "fetch-logs": "node fetch-ses-logs.js",
+    "setup-logging": "node config/setup-ses-logging.js",
+    "send-trace": "node send-and-trace-email.js",
+    "check-regions": "node check-ses-regions.js",
+    "check-ecs-errors": "node check-ecs-ses-errors.js",
+    "trace-email": "node trace-specific-email.js",
+    "test-smtp": "node test-smtp-credentials.js",
+    "update-ecs": "node update-ecs-task-definition.js",
+    "investigate-delivery": "node investigate-email-delivery.js",
+    "improve-reputation": "node improve-ses-reputation.js",
+    "check-env-precedence": "node check-env-precedence.js",
+    "check-s3-config": "node check-s3-config.js",
+    "remove-task-def-smtp": "node remove-task-def-smtp.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1500.0",
+    "axios": "^1.13.2",
+    "nodemailer": "^6.9.0"
+  },
+  "author": "Omar",
+  "license": "MIT"
+}
